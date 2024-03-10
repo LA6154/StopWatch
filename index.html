@@ -3,29 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StopWatch</title>
+    <title>StopWatch By LALAN </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <h1>StopWatch</h1>
-<div class="container">
-    <div class="num">
-        <h2 id="hr">00</h2>
-        <h2>:</h2>
-        <h2 id="min">00</h2>
-        <h2>:</h2>
-        <h2 id="sec">00</h2>
-        <h2>:</h2>
-        <h2 id="milli">00</h2>
-        </div>
-    <div class="btn">
-        <button onclick="start()">Start</button>
-        <button onclick="stop()">Stop</button>
-        <button onclick="reset()">Reset</button>
+    <div id="container">
+        <h2 class="StopWatch">StopWatch</h2>
+        <h1 id="startTimer">00:00:00</h1>
+        <button id="btn1" onclick="start()"><b>Start</b></button>
+        <button id="btn2" onclick="stop()"><b>Stop</b></button>
+        <button id="btn3" onclick="reset()"><b>Reset</b></button>
     </div>
-</div>
+    <script src="script.js"></script>
     
 </body>
 </html>
